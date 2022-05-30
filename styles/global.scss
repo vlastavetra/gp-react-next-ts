@@ -1,0 +1,118 @@
+@import '../styles/variables.scss';
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../public/fonts/Mulish-Bold.ttf') format('truetype');
+	font-weight: 100;
+  font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../public/fonts/Mulish-Light.ttf') format('truetype');
+	font-weight: 200;
+  font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../public/fonts/Mulish-Medium.ttf') format('truetype');
+	font-weight: 300;
+  font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../public/fonts/Mulish-Regular.ttf') format('truetype');
+	font-weight: 400;
+  font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../public/fonts/Mulish-Bold.ttf') format('truetype');
+	font-weight: 700;
+  font-style: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Antonio';
+	src: url('../public/fonts/Antonio-Regular.ttf') format("truetype");
+	font-weight: 500;
+  font-style: normal;
+	font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: $color_black;
+  background: $color_light_grey;
+  font-family: 'Mulish', Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, blockquote, hr {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+button {
+	background-color: transparent;
+	border-radius: 0;
+	border: 0;
+	box-shadow: none;
+	outline: 0;
+	padding: 0;
+	display: block;
+	cursor: inherit;
+	touch-action: manipulation;
+	appearance: none;
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+input, textarea {
+	display: block;
+	outline: 0;
+	box-shadow: none;
+	border: 0;
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+  display: block;
+  margin: 0 120px;
+}

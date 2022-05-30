@@ -1,0 +1,153 @@
+@import './variables.scss';
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin typo_h1 {
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 1;
+  font-weight: 300;
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 36px;
+	}
+
+  @media screen and (min-width: $BP4_min) {
+    font-size: 38px;
+	}
+}
+
+@mixin typo_h1_project {
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: 1;
+  font-weight: 500;
+  font-family: 'Antonio';
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 80px;
+	}
+}
+
+@mixin typo_h2 {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Antonio';
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 60px;
+	}
+
+  @media screen and (min-width: $BP4_min) {
+    font-size: 70px;
+	}
+}
+
+@mixin typo_h2_project {
+  font-size: 38px;
+  line-height: 1.3;
+  font-weight: 500;
+  font-family: 'Antonio';
+  letter-spacing: 1.5px;
+}
+
+@mixin typo_h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@mixin typo_h3_project {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Antonio';
+}
+
+@mixin typo_accent {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 300;
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 20px;
+    letter-spacing: 1px;
+	}
+
+  @media screen and (min-width: $BP4_min) {
+    font-size: 26px;
+    letter-spacing: 1px;
+	}
+}
+
+@mixin typo_textS {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 100;
+  letter-spacing: .9px;
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 16px;
+    letter-spacing: 2px;
+	}
+
+  @media screen and (min-width: $BP5_min) {
+    font-size: 20px;
+	}
+}
+
+@mixin typo_textS_project {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+@mixin typo_textM {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 200;
+  letter-spacing: 1;
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 20px;
+	}
+
+  @media screen and (min-width: $BP5_min) {
+    font-size: 24px;
+	}
+}
+
+@mixin typo_textM_project {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 20px;
+	}
+}
+
+@mixin typo_link {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  @media screen and (min-width: $BP3_min) {
+    font-size: 16px;
+	}
+
+  @media screen and (min-width: $BP5_min) {
+    font-size: 24px;
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {"id": 1, "title": "Title"},
+        {"id": 2, "title": "Title"},
+        {"id": 3, "title": "Title"},
+        {"id": 4, "title": "Title"},
+        {"id": 5, "title": "Title"}
+    ],
+    "general": [
+        {"id": "about",
+        "text": "Hi 🖖🏻 My name is George. I'm a multidisciplinary designer with 8 year experience. Last years I specialize in UX/UI design for digital services and products. Below you can find some of my works."}
+    ]
+}
